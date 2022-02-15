@@ -1,0 +1,14 @@
+th,td{
+    width:150px;
+    height:40px;
+    border:1px solid;
+    text-align: center;
+
+}
+table{
+    margin: 20px auto ;
+}
+
+.hover:hover{
+cursor:pointer
+}

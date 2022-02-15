@@ -1,0 +1,30 @@
+input,select{
+    width:150px;
+    height:30px
+}
+/* label{
+    width:200px;
+    border:1px solid
+} */
+form{
+    width:300px;
+    height:200px;
+    margin: auto;
+    border:1px solid green;
+    margin-top: 50px;
+    padding:10px;
+      
+}
+
+p{
+    width:300px;
+    display:flex;
+    justify-content: space-between;
+}
+label{
+    text-align: center;
+    margin-top: 10px;
+}
+input[type="submit"]{
+  margin-left:70px
+}

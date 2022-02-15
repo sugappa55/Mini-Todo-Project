@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <nav>
+     <p><a href="home.html">Home</a></p>
+     <p><a href="task_list.html">Task List</a></p>
+     <p><a href="completed.html">Completed Tasks</a></p>
+    </nav>
+    
+
+
+    <form action="" onsubmit="addTask(event)">
+  <p>      <label> Task Name:  </label> <input type="text" id="name" required></p>
+    <p>    <label>Timings:</label><input type="time" id="time" required></p>
+       <p> <label> priority: 
+    </label>
+    <select>
+        
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select></p>
+        <label></label>
+        <input type="submit" value="Add task">
+    </form>
+</body>
+</html>
+<script src="home.js"></script>
