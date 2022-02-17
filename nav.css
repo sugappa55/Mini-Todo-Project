@@ -5,6 +5,9 @@ nav{
     color:white;
     display:flex;
     justify-content: space-around;
+    position:fixed;
+   top:0;
+   left:0
 }
 a{
     color:white;

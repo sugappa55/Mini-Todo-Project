@@ -16,4 +16,6 @@ function addTask(event){
 
    localStorage.setItem("task",JSON.stringify(arr))
 
+   alert("Task Added Successfully")
+
 }
