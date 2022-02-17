@@ -54,8 +54,11 @@ if(elem.status=="Done")
     col5.style.backgroundColor="green"
 
 }
-else col5.textContent="Pending"
-
+else 
+{
+    col5.textContent="Pending"
+     col5.style.border="1px solid red"
+}
 var col6=document.createElement("td")
 
 col6.textContent="Delete"
